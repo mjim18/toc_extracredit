@@ -1,0 +1,13 @@
+Equal Parentheses
+q0,q1,q2,q3,qacc,qrej
+(,)
+(,),_
+q0
+qacc
+qrej
+q0,(,q1,_,R
+q1,(,q1,(,R
+q1,),q2,_,L
+q2,(,q2,_,L
+q2,_,qacc,_,R
+q2,),qrej,_,R
